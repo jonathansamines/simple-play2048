@@ -1,0 +1,3 @@
+# se ignoran los archivos no necesarios
+npm-debug.log
+/libs
