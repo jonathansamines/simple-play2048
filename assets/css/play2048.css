@@ -25,10 +25,10 @@ header{
 .game-grid{}
 	.game-grid .game-row{}
 	.game-grid .game-row .game-column{
-		background-color : #eeeeee;
+		background-color : #f6f6f6;
 		display : inline-block;
 		height : 120px;
-		margin : 4px 1px;
+		margin : 2px;
 		width : 120px;
 		cursor : pointer;
 		
@@ -38,4 +38,8 @@ header{
 		line-height : 120px;
 
 		vertical-align: middle;
+	}
+	.game-grid .game-row .game-column.new-item{
+		background-color : #F4CC97;
+		-webkit-transition : 0.5s all ease-in;
 	}
